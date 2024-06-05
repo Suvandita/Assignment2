@@ -32,41 +32,41 @@ body{
 }
 .cards{
     display:flex;
-    overflow-x: scroll;
+    overflow-x:scroll;
 }
 .cards .card{
     min-width: 300px;      /*prevents the element to shrink*/
     height:400px;          /*using pixels as the image size is fixed for all devices*/
     
     border: 3px solid black;
+
     margin-right:5%;
     margin-left: 5%;
-    
     
 }
 #card1{
     background-image:url(Images/card1.jpg);
-    background-size: 300px 400px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #card2{
     background-image:url(Images/card2.jpg);
-    background-size: 300px 400px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #card3{
     background-image:url(Images/card3.jpg);
-    background-size: 300px 400px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #card4{
     background-image:url(Images/card4.jpg);
-    background-size: 300px 400px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #card5{
     background-image:url(Images/card5.jpg);
-    background-size: 300px 400px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
